@@ -5,6 +5,12 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#Paginate
+gem 'will_paginate', '~> 3.1.0'
+
+gem 'bootstrap-will_paginate'
+#Create sample user
+gem 'faker'
 #has_secure_password
 gem 'bcrypt',         '3.1.11'
 #Bootstrap gem
