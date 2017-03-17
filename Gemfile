@@ -5,6 +5,10 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#image upload gems
+gem 'carrierwave'
+gem 'mini_magick'
+gem 'fog'
 #Paginate
 gem 'will_paginate', '~> 3.1.0'
 
