@@ -5,6 +5,8 @@ git_source(:github) do |repo_name|
   "https://github.com/#{repo_name}.git"
 end
 
+#Evironment variables
+gem 'figaro'
 #image upload gems
 gem 'carrierwave'
 gem 'mini_magick'
